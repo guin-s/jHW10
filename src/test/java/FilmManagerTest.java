@@ -19,7 +19,7 @@ public class FilmManagerTest {
 
         Assertions.assertArrayEquals(expected, actual);
 
-        }
+    }
 
     @Test
     public void lastFilmsTestWithLimit() {
