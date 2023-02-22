@@ -119,7 +119,7 @@ public class FilmManagerTest {
 
 
         String[] actual = manager.findLast();
-        String[] expected = { film2, film1};
+        String[] expected = {film2, film1};
 
         Assertions.assertArrayEquals(expected, actual);
 
